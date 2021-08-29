@@ -1,0 +1,159 @@
+@media (min-width: 2560px) {
+  #hero {
+    .swiper-container {
+      .swiper-wrapper {
+        .enroll {
+          & > a {
+            left: 47.5%;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1400px) {
+  #hero {
+    .swiper-container {
+      height: 90vh;
+    }
+  }
+}
+
+@media (max-width: 1199.98px) {
+  #hero {
+    .swiper-container {
+      height: 48vh;
+
+      .swiper-wrapper {
+        .enroll {
+          & > a {
+            left: 43%;
+          }
+        }
+        h1 {
+          font-size: 3.5rem;
+        }
+        p {
+          font-size: 2.2rem;
+          margin: 1em auto;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .navbar {
+    .navbar-nav {
+      text-align: center;
+      .nav-item {
+        border-bottom: 1px solid #57526e5d;
+      }
+      .num {
+        margin-top: 2.5em;
+      }
+    }
+  }
+
+  #hero {
+    .swiper-container {
+      height: 35vh;
+
+      .swiper-wrapper {
+        .enroll {
+          & > a {
+            font-size: 1rem;
+            padding: 0.8em 2em;
+
+            left: 43%;
+            bottom: 5%;
+          }
+        }
+        h1 {
+          font-size: 2.5rem;
+        }
+        p {
+          font-size: 2rem;
+          max-width: 75%;
+          margin: 1em auto;
+        }
+      }
+      .swiper-button-prev,
+      .swiper-button-next {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .primary-btn {
+    font-size: 1rem;
+    padding: 0.5em 1em;
+
+    margin: 1em 0;
+  }
+  .navbar {
+    flex-wrap: nowrap;
+    .container-fluid {
+      flex-wrap: wrap;
+    }
+    .navbar-brand {
+      max-width: 80%;
+      img {
+        max-width: 80%;
+      }
+    }
+    .navbar-nav {
+      text-align: center;
+      .nav-item {
+        border-bottom: 1px solid #57526e5d;
+      }
+      .num {
+        margin-top: 2.5em;
+      }
+    }
+  }
+
+  #hero {
+    .swiper-container {
+      height: 20vh;
+
+      .swiper-wrapper {
+        .enroll {
+          & > a {
+            font-size: 0.75rem;
+            padding: 0.8em 2em;
+
+            left: 40%;
+            bottom: 3%;
+          }
+        }
+        h1 {
+          font-size: 1.4rem;
+        }
+        p {
+          font-size: 1.1rem;
+          max-width: 75%;
+          margin: 1em auto;
+        }
+        .bt {
+          width: 5em;
+          height: 0.5em;
+        }
+      }
+      .swiper-button-prev,
+      .swiper-button-next {
+        display: none;
+      }
+      .swiper-pagination {
+        bottom: 50%;
+        left: 46%;
+        transform: rotateZ(90deg);
+      }
+    }
+  }
+  #back-to-top-btn {
+    font-size: 2rem;
+  }
+}
